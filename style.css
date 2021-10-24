@@ -30,6 +30,9 @@ li{
     width:150px;
 }
 
+.nav-link{
+    color: black;
+}
 
 
 
@@ -41,14 +44,33 @@ li{
 
 .main{
     background-color: #F0FFF0;
-    height: 600px;
-
+    
+    margin-bottom: 50px;
 }
 
 .height{
-    height: 500px;
+    height: 520px;
 }
 
+@media(max-width:700px){
+    .height{
+        height: 780px;
+    }
+    .bt{
+        margin-bottom: 50px;
+    }
+    .topic{
+        margin-top:60px;
+    }
+
+    .card-footer p{
+        font-size: 14px;
+    }
+    .f-img{
+        width:20px;
+        height: 20px;
+    }
+}
 
 .font{
     font-size: 50px;
@@ -66,12 +88,79 @@ span{
 }
 
 .container{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    
+}
+
+.topic{
+    margin-top: 80px;
+}
+
+
+.div{
+    background: #F8FFFB;
+    width:220px;
+    height: 220px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    transition:0.5s;
+}
+
+
+.div:hover{
+    box-shadow: 5px 5px 20px lightgray;
+    background: #fff;
 }
 
 
 
+.gap{
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
 
+.txt{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.card{
+    padding:20px;
+    border:none;
+    box-shadow: 5px 5px 25px lightgray;
+    border-radius: 10px;
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+
+.btne{
+    background-color: #21B573;
+    outline: none;
+    border-radius:20px;
+    border: none;
+    padding: 8px 27px;
+    color:#fff;
+}
+
+
+
+.card-footer{
+    border:none;
+    background-color: #fff;
+}
+
+
+.f-img{
+    width: 24px;
+    height: 24px;
+}
 
 
 
