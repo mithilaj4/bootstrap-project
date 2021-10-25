@@ -70,6 +70,14 @@ li{
         width:20px;
         height: 20px;
     }
+
+    .man{
+        margin-bottom: 50px;
+    }
+
+    .limit{
+        height: 600px;
+    }
 }
 
 .font{
@@ -93,7 +101,7 @@ span{
 }
 
 .topic{
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 
@@ -161,6 +169,47 @@ span{
     width: 24px;
     height: 24px;
 }
+
+.t-img{
+    width: 150px;
+}
+
+.tm{
+    margin-top: 100px;
+}
+
+
+.blak{
+    background-color: #282531;
+    color: lightgray;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.blak ul li{
+    list-style: none;
+}
+
+
+.padding-p{
+    padding:30px
+}
+
+.padding-col{
+    padding-top: 35px;
+}
+
+
+.Copyright{
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
 
 
 
